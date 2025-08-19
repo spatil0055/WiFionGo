@@ -173,7 +173,7 @@ section img { max-width: 100%; }
 }
 
 /* CTA */
-.cta { background: #b9daf1 ; color: white; padding: 60px 20px; }
+.cta { background: #f1f8ff ; color: white; padding: 60px 20px; }
 .cta-buttons { margin-top: 20px; display: flex; gap: 20px; justify-content: center; }
 
 /* Footer */
