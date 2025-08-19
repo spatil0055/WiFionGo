@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WiFionGo – Seamless, Secure WiFi Everywhere</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome 6 -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="navbar">
+    <div class="logo">WiFionGo</div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#terms">Security and Compliance</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+    <div class="nav-buttons">
+      <a href="#download" class="btn">Download App</a>
+      <a href="#partner" class="btn secondary">Become a Partner</a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Seamless, Secure WiFi Everywhere</h1>
+      <p>Connect to hotels, apartments, tech parks, and public venues instantly with WiFionGo.</p>
+      <div class="hero-buttons">
+        <a href="#download" class="btn">Download App</a>
+        <a href="#partner" class="btn secondary">Partner with Us</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="images/hero-wifi.png" alt="WiFi Illustration"/>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About WiFionGo</h2>
+    <p>WiFionGo is a smart connectivity solution that simplifies public WiFi access.<br> 
+      No more passwords, OTPs, or repeated logins — WiFionGo ensures one-time login, secure connectivity across partner locations.<br>
+      Whether you’re in a hotel, tech park, apartment complex, or public hotspot, WiFionGo helps you stay connected with enterprise-grade security and frictionless access.
+    </p>
+    <h2 align="center">REVOLNET-WiFionGo</h2>
+    <div class="video-container">
+      <iframe 
+        src="https://www.youtube.com/embed/ealxQTxrHqw?si=50IArd7oG7yuJxRo" 
+        title="Revolnet Product Demo"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="features">
+    <h2>Key Features</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/one-tap1.png" alt="One Tap Login"/>
+        <h3>One-Time App Login</h3>
+        <p>Skip the hassle of entering passwords and OTPs again and again.</p>
+      </div>
+      <div class="card">
+        <img src="images/hotspot.png" alt="Partner Hotspots"/>
+        <h3>Partner Hotspots</h3>
+        <p>Instant access in hotels, apartments, tech parks, airports, and more.</p>
+      </div>
+      <div class="card">
+        <img src="images/security.png" alt="Secure Connections"/>
+        <h3>Secure Connections</h3>
+        <p>Enterprise-grade authentication & end-to-end encryption.</p>
+      </div>
+      <div class="card">
+        <img src="images/subscription.png" alt="Subscription"/>
+        <h3>Flexible Subscriptions</h3>
+        <p>Affordable per-user or per-device billing plans.</p>
+      </div>
+      <div class="card">
+        <img src="images/compliance.png" alt="Compliance"/>
+        <h3>Compliance Ready</h3>
+        <p>Meets DoT & IT Act regulations for public WiFi in India.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO BENEFITS -->
+  <section id="solutions" class="benefits">
+    <h2>Who Benefits?</h2>
+    <div class="split">
+      <div class="benefit-box">
+        <img src="images/user-benefits.png" alt="Subscription"/>
+        <h3>For Users</h3>
+        <ul>
+          <li>Instant WiFi access without passwords.</li>
+          <li>Secure, reliable internet everywhere.</li>
+          <li>One account, many locations.</li>
+        </ul>
+      </div>
+      <div class="benefit-box">
+        <img src="images/venues.png" alt="Venues"/>
+        <h3>For Venues</h3>
+        <ul>
+          <li>Hassle-free WiFi management.</li>
+          <li>Better customer experience.</li>
+          <li>Usage tracking & monetization.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECURITY -->
+  <section id="terms" class="security">
+    <h2>Security & Compliance</h2>
+
+    <section class="legal-section">
+      <div class="legal-card">
+        <img src="images/terms.png" alt="Terms and condition"/>
+        <h3>Terms & Conditions</h3>
+        <p>
+          Understand the rules, responsibilities, and usage policies for using WiFionGo services...
+        </p>
+        <a href="terms.html" target="_blank" class="btn-readmore">Read More</a>
+      </div>
+    
+      <div class="legal-card">
+        <img src="images/privacy.png" alt="Privacy policy"/>
+        <h3>Privacy Policy</h3>
+        <p>
+          Learn how WiFionGo protects your data, ensures privacy, and complies with regulations...
+        </p>
+        <a href="privacyPolicy.html" target="_blank" class="btn-readmore">Read More</a>
+      </div>
+
+      <div class="legal-card">
+        <img src="images/engagement.png" alt="Terms of engagement"/>
+        <h3>Partner's Terms of Engagement</h3>
+        <p>Guidelines and engagement terms for ISPs & venue partners...</p>
+        <a href="partnerTerms.html" target="_blank" class="btn-readmore">Read More</a>
+      </div>
+    
+      <div class="legal-card">
+        <img src="images/data-handling.png" alt="Compliance policyn"/>
+        <h3>Data Handling & Compliance Policy</h3>
+        <p>How we handle logs, compliance, and partner obligations...</p>
+        <a href="compliancePolicy.html" target="_blank" class="btn-readmore">Read More</a>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="flow-diagram">
+      <img src="images/flow-diagram.png" alt="Flow Diagram"/>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="pricing">
+    <h2>Pricing</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Basic Plan</h3>
+        <p>Free at select hotspots or as per partner agreements. </p>
+      </div>
+      <div class="card">
+        <h3>Enterprise Plan</h3>
+        <p>Custom pricing for hotels, apartments & tech parks</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE -->
+  <section class="why">
+    <h2>Why Choose WiFionGo?</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/time.png" alt="Time saving"/>
+        <h3>Time-Saving</h3>
+        <p>No more OTPs or repeated logins.</p>
+      </div>
+      <div class="card">
+        <img src="images/secure.png" alt="Secure"/>
+        <h3>Highly Secure</h3>
+        <p>Strong encryption and compliance-ready.</p>
+      </div>
+      <div class="card">
+        <img src="images/affordable.png" alt="Affordable"/>
+        <h3>Affordable</h3>
+        <p>Flexible plans for individuals & enterprises.</p>
+      </div>
+      <div class="card">
+        <img src="images/nationwide.png" alt="Nationwide"/>
+        <h3>Nationwide Reach</h3>
+        <p>Partner network across India keeps you online.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="download" class="cta">
+    <h2>Ready to Experience Seamless WiFi?</h2>
+    <div class="cta-buttons">
+      <a href="#" class="btn">Download WiFionGo App</a>
+      <a href="#partner" class="btn secondary">Become a Partner Venue</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#terms">Security and Compliance</a>
+      <a href="#pricing">Pricing</a>
+    </div>
+    <p>Contact: support@revolnet.com</p>
+    <p>Copyright &copy; WiFionGo 2025. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
